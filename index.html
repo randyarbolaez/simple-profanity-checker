@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Profanity Checker</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Profanity Checker</h1>
+      <form action="" onsubmit="containsProfanity(event)" class="sub-wrapper">
+        <textarea
+          id="input"
+          cols="40"
+          rows="10"
+          placeholder="Check if text contains Profanity"
+        ></textarea>
+        <input type="submit" value="Contains Profanity?" />
+      </form>
+      <h2 id="profanity-h2"></h2>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

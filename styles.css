@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+body {
+  background: #668586;
+  font-family: 'Abel', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #82aeb1;
+}
+
+.wrapper h1 {
+  font-size: 5rem;
+}
+
+.sub-wrapper textarea {
+  color: #82aeb1;
+  font-family: 'Abel', sans-serif;
+  font-size: 1rem;
+}
+
+.sub-wrapper input {
+  width: 15vw;
+  margin-left: 3vw;
+  font-family: 'Abel', sans-serif;
+  box-shadow: 0.3vw 0.8vh #82aeb1;
+}
+
+.wrapper h2 {
+  margin-top: 5vw;
+  font-size: 5rem;
+}
